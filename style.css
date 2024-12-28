@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.reset{
+    background-color: #34344A;
+    color: azure;
+    border-radius: 3vmin;
+    height: 10vmin;
+    width: 20vmin;
+}
+
+body{
+    background-color: #E0EDC5;
+    color: #34344A;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9vmin;
+}
+
+.box{
+    background-color: #124E78;
+    border-radius: 15px;
+    border: none;
+    height: 18vmin;
+    width: 18vmin;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    color: bisque;
+    font-size: x-large;
+}
+
